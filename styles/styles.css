@@ -1,0 +1,12 @@
+body {
+  background-color: bisque;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  font-weight: 700;
+  color: blueviolet;
+}
+img {
+  height: 300px;
+  width: auto;
+}

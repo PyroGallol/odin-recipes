@@ -1,3 +1,3 @@
-Recipe Project 
+Recipe Project
 
-The current project aims to create a new webpage containing a recipe  
+The current project aims to create a new website containing recipes
