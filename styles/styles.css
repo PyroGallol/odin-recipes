@@ -7,10 +7,14 @@ html {
   box-sizing: inherit;
 }
 body {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 70%;
+  margin: 5px auto;
   background-color: bisque;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.whole-body {
+  border: 5px solid crimson;
+  padding: 2em;
 }
 p {
   font-weight: 700;
@@ -26,6 +30,10 @@ img {
 
   font-size: 3em;
 }
+nav {
+  width: 600px;
+  margin: 0 auto;
+}
 
 .link-list a {
   text-decoration: none;
@@ -35,11 +43,18 @@ img {
   display: block;
   margin: 1em;
 }
-.link-list li {
-  display: inline-block;
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
 }
 
 .link-list a:hover {
   background-color: rgb(66, 28, 40);
   color: #fff;
+}
+img {
+  max-width: 100%;
 }
