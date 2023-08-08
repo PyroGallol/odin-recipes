@@ -15,6 +15,7 @@ body {
 .whole-body {
   border: 5px solid crimson;
   padding: 2em;
+  border-radius: 10%;
 }
 p {
   font-weight: 700;
@@ -22,7 +23,6 @@ p {
 }
 img {
   height: 300px;
-  width: auto;
 }
 .odin-title {
   width: 300px;
@@ -57,4 +57,8 @@ nav {
 }
 img {
   max-width: 100%;
+}
+.main-title {
+  text-align: center;
+  margin-bottom: 42px;
 }
